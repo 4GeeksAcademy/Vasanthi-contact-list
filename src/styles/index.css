@@ -1,3 +1,47 @@
 /* 
     General Styles
 */
+.contact-list {
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 70%;
+    margin: auto;
+}
+.contact-list ul {
+    padding: 0;
+    margin: 0;
+}
+.contact-person {
+    border-bottom: 1px solid gray;
+    padding: 16px;
+}
+.contact-person:last-child {
+    border: none;
+}
+.contact-list .row {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+.contact-image {
+    text-align: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-image img {
+  border-radius: 50%;
+}
+.contact-actions {
+  padding: 10px;
+  text-align: right;
+}
+.contact-info {
+    line-height: 2;
+}
+.pencil-icon {
+    margin-right: 20px;
+}
+.add-form {
+    width: 90%;
+    margin: auto;
+}
